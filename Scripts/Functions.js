@@ -144,20 +144,69 @@ dailyReturns(90, 100);*/
 // };
 // getBiggest(5, 15);
 
-function getLength(str) {
-  str = str.length;
-  return str;
+// function getLength(str) {
+//   str = str.length;
+//   return str;
+// }
+// getLength("Vance");
+
+
+
+// function orderPizza(str) {
+//   if (str == true){
+//     return "Cheese Pizza";
+//   } else {
+//       return 'Pepperoni Pizza';
+//   }
+
+// }
+// orderPizza(false);
+
+
+
+// function countDown(num) {
+//   for (let i = num; num > 0;num--){
+//     console.log(num);
+//   };
+
+// }
+// countDown(20);
+
+
+// function repeat(phrase, x) {
+//   for (let i = x;x > 0; x--) {
+//     console.log(phrase);
+//   };
+
+// }
+// repeat('not your mama\'s edamame', 20);
+
+// // var perimeterBox = function(length, width) {
+// // return length * 2 + width * 2;
+// // };
+// // perimeterBox(9, 8)
+
+// function combine(p1, p2, p3,x){
+//   for (let i = x; x > 0;x--) {
+//       const combination = p1 + p2 + p3;
+//       console.log (combination);
+
+//   };
+
+// }
+// combine('Test', 'One', 'Two', 5);
+
+
+// function getHTMLTag(tagName) {
+//    const HTMLTag =  '<'+ tagName + '></' + tagName + '>';
+//    return HTMLTag;
+// }
+// getHTMLTag('p');
+
+function countDown(num) {
+  for (let i = num; num >= 0;num--){
+    console.log(num);
+  };
+
 }
-getLength("Vance");
-
-
-
-function orderPizza(str) {
-  if (str == true){
-    return "Cheese Pizza";
-  } else {
-      return 'Pepperoni Pizza';
-  }
-
-}
-orderPizza(false);
+countDown(20);
