@@ -197,11 +197,12 @@ dailyReturns(90, 100);*/
 // combine('Test', 'One', 'Two', 5);
 
 
-// function getHTMLTag(tagName) {
-//    const HTMLTag =  '<'+ tagName + '></' + tagName + '>';
-//    return HTMLTag;
-// }
-// getHTMLTag('p');
+export function getHTMLTag(tagName) {
+   const HTMLTag =  '<'+ tagName + '></' + tagName + '>';
+   const HTMLTag = `<${tagName}></${tagName}>`;
+   return HTMLTag;
+}
+getHTMLTag('p');
 
 function countDown(num) {
   for (let i = num; num >= 0;num--){
